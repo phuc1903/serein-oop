@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/layout.css">
+    <link rel="stylesheet" href="asset/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="grid wide">
+            <div class="header__main">
+                <div class="logo">
+                    <img src="asset/img/logo3.png" alt="">
+                </div>
+                <div class="nav">
+                    <div class="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="posts.html">Posts</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="right__icons">
+                        <div class="right__icon-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="right__icon-item">
+                            <!-- <img src="asset/img/default.jpg" alt=""> -->
+                            <i class="fa-solid fa-user"></i>
+                            <div class="right_icon-chirld">
+                                <a href="admin.html"><div class="right_icon-chirld-item">Admin</div></a>
+                                <a href="info.html"><div class="right_icon-chirld-item">Hồ sơ</div></a>
+                                <a href="user/order.html"><div class="right_icon-chirld-item">Quản lý đơn hàng</div></a>
+                                <a href="logout.html"><div class="right_icon-chirld-item">Đăng xuất</div></a>
+                                <a href="login.html"><div class="right_icon-chirld-item">Đang nhập</div></a>
+                                <a href="register.html"><div class="right_icon-chirld-item">Đăng ký</div></a>
+                            </div>
+                        </div>
+                        <div class="right__icon-item">
+                            <a href="cart.html" class="right__icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <span>(0)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-admin container">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3">
+                    <div class="header__admin">
+                        <a class="header__admin-item active" href="info.html"><p class="header__admin-item-icon"></p><span class="heeader__admin-item-content">Hồ sơ</span></a>
+                        <a class="header__admin-item" href="#"><p class="header__admin-item-icon"></p><span class="heeader__admin-item-content">Quản lý sản phẩm</span></a>
+                        <a class="header__admin-item" href="#"><p class="header__admin-item-icon"></p><span class="heeader__admin-item-content">Quản lý danh muc</span></a>
+                        <a class="header__admin-item" href="#"><p class="header__admin-item-icon"></p><span class="heeader__admin-item-content">Quản lý bình luận</span></a>
+                        <a class="header__admin-item" href="#"><p class="header__admin-item-icon"></p><span class="heeader__admin-item-content">Quản lý tài khoản khách hàng</span></a>
+                    </div>
+                </div>
+                <div class="col l-9 main__admin">
+                    <h1>Hồ sơ chi tiết</h1>
+                    <div class="main_admin-item">
+                        <div class="main__admin-avatar"><img id="avatar" src="<?php isset($_COOKIE['img']) ? $_COOKIE['img'] : 'Public/img/default.png" alt=""></div>
+                        <div class="main__admin-right">
+                            <div class="main__admin-name">Đinh Trọng Phúc</div>
+                            <button class="btn-admin" id="btn-avatar" onclick="chooseImage()">Thay đổi ảnh</button>
+                            <input class="btn-admin" type="file" accept="image/png, image/jpeg" name="" id="typeFile" hidden onclick="previewImage(this);">
+                            <script>
+                                
+                            </script>
+                        </div>  
+                    </div>
+                    
+                    <div class="main__admin-inputs">
+                        <div class="col l-6 main__admin-input-item">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="col l-6 main__admin-input-item">
+                            <label for="name">Họ và tên</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="main__admin-inputs">
+                        <div class="col l-6 main__admin-input-item">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="col l-6 main__admin-input-item">
+                            <label for="name">Họ và tên</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="main__admin-inputs">
+                        <div class="col l-6 main__admin-input-item">
+                            <label for="name">Họ và tên</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="col l-6 main__admin-input-item">
+                            <label for="name">Họ và tên</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="main__admin-btn-action">
+                        <div class="main__admin-btn-item"><button class="btn-admin">Lưu thay đổi</button></div>
+                        <div class="main__admin-btn-item"><button class="btn-admin">Lưu thay đổi</button></div>
+                        <div class="main__admin-btn-item"><button class="btn-admin">Lưu thay đổi</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>

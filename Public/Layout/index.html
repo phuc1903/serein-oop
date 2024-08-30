@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/layout.css">
+    <link rel="stylesheet" href="asset/css/detail.css">
+    <link rel="shortcut icon" href="asset/img/logo.png">
+    <link rel="stylesheet" href="asset/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+
+    <title>
+    </title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="grid wide">
+                <div class="header__main">
+                    <div class="logo">
+                        <img src="asset/img/logo3.png" alt="">
+                    </div>
+                    <div class="nav">
+                        <div class="navbar">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="posts.html">Posts</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="right__icons">
+                            <div class="right__icon-item">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="right__icon-item">
+                                <!-- <img src="asset/img/default.jpg" alt=""> -->
+                                <i class="fa-solid fa-user"></i>
+                                <div class="right_icon-chirld">
+                                    <a href="admin.html"><div class="right_icon-chirld-item">Admin</div></a>
+                                    <a href="info.html"><div class="right_icon-chirld-item">Hồ sơ</div></a>
+                                    <a href="user/order.html"><div class="right_icon-chirld-item">Quản lý đơn hàng</div></a>
+                                    <a href="logout.html"><div class="right_icon-chirld-item">Đăng xuất</div></a>
+                                    <a href="login.html"><div class="right_icon-chirld-item">Đang nhập</div></a>
+                                    <a href="register.html"><div class="right_icon-chirld-item">Đăng ký</div></a>
+                                </div>
+                            </div>
+                            <div class="right__icon-item">
+                                <a href="cart.html" class="right__icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <span>(0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6">
+                        <div class="banner__left">
+                            <h3>Bộ sưu tập</h3>
+                            <h2>Dấu ấn</h2>
+                            <span>Mỗi chúng ta là một cá thể độc nhất trên thế giới, vậy nên, hãy thoải mái sáng tạo
+                                theo cách riêng của bạn. Dù ở bất kỳ phiên bản nào, Serein Jewelry luôn đồng hành cùng
+                                bạn ghi lại “DẤU ẤN” riêng bạn.</span>
+                        </div>
+                    </div>
+                    <div class="col l-6 ">
+                        <div class="banner__right">
+                            <div class="banner__right-btn">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="banner-right-img">
+                                <img src="asset/img/vong-bac-banner.png" alt="">
+                            </div>
+                            <div class="banner__right-btn">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row banner__bottom">
+                    <div class="col l-6">
+                        <form class="banner-bottom-left">
+                            <button type="submit" name="">Mua ngay</button>
+                        </form>
+                    </div>
+                    <div class="col l-6">
+                        <div class="banner-bottom-right">
+                            <div class="banner-bottom-color">
+                                <div class="banner-bottom-color-item gold"></div>
+                                <div class="banner-bottom-color-item white"></div>
+                            </div>
+                            <div class="banner-bottom-play">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="product container">
+            <div class="grid wide">
+                <div class="product-section">
+                    <h3>Sản phẩm mới</h3>
+                    <span><a href="#">Đi đến posts</a></span>
+                </div>
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/nhan-cuoi-kim-cuong-pnj-chung-doi-vang-18k.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Nhẫn vàng</div>
+                                        <div class="product-item-price"><a href="#">100.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/day-chuyen-vang-dinh-kim-cuong.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Mặt dây chuyền kim cương</div>
+                                        <div class="product-item-price"><a href="#">200.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/nhan-vang-18k-dinh-da-citrine-pnj-1.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Nhẫn vàng</div>
+                                        <div class="product-item-price"><a href="#">100.000.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/bong-tai-vang-2.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Bông tai váng</div>
+                                        <div class="product-item-price"><a href="#">100.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product container">
+            <div class="grid wide">
+                <div class="product-section">
+                    <h3>Sản phẩm được yêu thích</h3>
+                    <span><a href="#">Đi đến posts</a></span>
+                </div>
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/nhan-cuoi-kim-cuong-pnj-chung-doi-vang-18k.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Nhẫn vàng</div>
+                                        <div class="product-item-price"><a href="#">100.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/day-chuyen-vang-dinh-kim-cuong.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Mặt dây chuyền kim cương</div>
+                                        <div class="product-item-price"><a href="#">200.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/nhan-vang-18k-dinh-da-citrine-pnj-1.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Nhẫn vàng</div>
+                                        <div class="product-item-price"><a href="#">100.000.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/bong-tai-vang-2.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Bông tai váng</div>
+                                        <div class="product-item-price"><a href="#">100.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product container">
+            <div class="grid wide">
+                <div class="product-section">
+                    <h3>Sản phẩm bán chạy</h3>
+                    <span><a href="#">Đi đến posts</a></span>
+                </div>
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/nhan-cuoi-kim-cuong-pnj-chung-doi-vang-18k.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Nhẫn vàng</div>
+                                        <div class="product-item-price"><a href="#">100.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/day-chuyen-vang-dinh-kim-cuong.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Mặt dây chuyền kim cương</div>
+                                        <div class="product-item-price"><a href="#">200.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/nhan-vang-18k-dinh-da-citrine-pnj-1.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Nhẫn vàng</div>
+                                        <div class="product-item-price"><a href="#">100.000.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="product-item">
+                            <a href="#">
+                                <div class="product-top">
+                                    <div class="product-item-img">
+                                        <img src="asset/img/bong-tai-vang-2.png" alt="'.$name.'">
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-name">Bông tai váng</div>
+                                        <div class="product-item-price"><a href="#">100.200.000 VNĐ</a></div>
+                                    </div>
+                                    <div class="buy-product">
+                                        <a class="buy-product-detail" href="#'">Mua ngay</a>
+                                        <a class="buy-product-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="posts product container">
+            <div class="grid wide">
+                <div class="product-section">
+                    <h3>Bài viết mới</h3>
+                    <span><a href="#">Đi đến blog</a></span>
+                </div>
+                <div class="row">
+                    <div class="col l-4">
+                        <div class="posts-item">
+                            <div class="post-item-img"><img src="asset/img/post1.png" alt=""></div>
+                            <div class="post-item-datetime">feb 22, 2023 - Gadgets</div>
+                            <div class="post-item-name">Get some cool gadgets in 2023</div>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="posts-item">
+                            <div class="post-item-img"><img src="asset/img/post2.png" alt=""></div>
+                            <div class="post-item-datetime">feb 22, 2023 - technology</div>
+                            <div class="post-item-name">TECHNOLOGY HACK YOU WON’T GET</div>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="posts-item">
+                            <div class="post-item-img"><img src="asset/img/post3.png" alt=""></div>
+                            <div class="post-item-datetime">feb 22, 2023 - camera</div>
+                            <div class="post-item-name">toP 10 SMALL cAMERA IN THE WORLD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="coutdown container">
+            <div class="grid wide">
+                <div class="coutdown-content">
+                    <h3>Đăng ký ngay để sở hữu BST "Dấu ấn"</h3>
+                    <div class="coutdown-content-bottom">
+                        <span>Vì “Dấu ấn” là BST độc nhất cho mỗi khách hàng, nên chúng tôi chỉ mở bán với số lượng giới
+                            hạn.
+                            Đặc biệt, khi mua hàng càng sớm bạn sẽ nhận được nhiều ưu đãi đặc biệt từ Serein Jewelry.
+                        </span>
+                        <button name="buy_submit">Mua ngay</button>
+                    </div>
+                </div>
+                <div class="coutdown-olock">
+                    <div class="coutdown-olock-item">
+                        <div id="days" class="coutdown-olock-item-hour">0</div>
+                        <div class="coutdown-olock-item-day">Ngày</div>
+                    </div>
+                    <div class="coutdown-olock-item">
+                        <div id="hours"  class="coutdown-olock-item-hour">7</div>
+                        <div class="coutdown-olock-item-day">Giờ</div>
+                    </div>
+                    <div class="coutdown-olock-item">
+                        <div id="mins"  class="coutdown-olock-item-hour">23</div>
+                        <div class="coutdown-olock-item-day">Phút</div>
+                    </div>
+                    <div class="coutdown-olock-item">
+                        <div id="seconds"  class="coutdown-olock-item-hour">49</div>
+                        <div class="coutdown-olock-item-day">Giây</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-register container">
+            <div class="grid wide">
+                <div class="form-register-main">
+                    <div class="form-register-content">
+                        <h3>Đăng ký ngay</h3>
+                        <span>Đăng ký để nhận được khuyến mãi</span>
+                    </div>
+                    <div class="form-register-input">
+                        <input type="text" placeholder="Nhập email">
+                        <button>Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimony container">
+            <div class="grid wide">
+                <div class="testimony-main">
+                    <div class="testimony-icon">
+                        <img src="asset/img/testimony-icon.png" alt="">
+                    </div>
+                    <div class="testimony-content">
+                        <div class="testimony-button-left">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="testimony-content-said">
+                            “Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis
+                            Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”
+                        </div>
+                        <div class="testimony-button-right">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="testimony-star">
+                        <div class="testimony-star-items">
+                            <div class="testimony-star-item">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testimony-star-item">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testimony-star-item">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testimony-star-item">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="testimony-star-item">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testtimony-star-name">
+                            Emma Chamberlin
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="evaluate container">
+            <div class="grid wide evaluate-head">
+                <h3>Khách hàng nói về BST "Dấu ấn"</h3>
+                <div class="row evaluatelist">
+                    <div class="col l-4 ">
+                        <div class="evaluate__box">
+                            <div class="boxevaluate__head boxevaluate__head--brown"></div>
+                            <div class="containerbox">
+                                <p class="boxevaluate__text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                                <div class="boxevaluate__user">
+                                    <div class="user__icon"><img src="asset/img/bong-tai-bac.png" alt=""></div>
+                                    <div class="user__name_time">
+                                        <div class="user__name">Lorem Ipsum</div>
+                                        <div class="user__time">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 removepadding">
+                        <div class="evaluate__box">
+                            <div class="boxevaluate__head boxevaluate__head--oceanblue"></div>
+                            <div class="containerbox">
+                                <p class="boxevaluate__text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                                <div class="boxevaluate__user">
+                                    <div class="user__icon"><img src="asset/img/bong-tai-bac.png" alt=""></div>
+                                    <div class="user__name_time">
+                                        <div class="user__name">Lorem Ipsum</div>
+                                        <div class="user__time">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-4 removepadding">
+                        <div class="evaluate__box">
+                            <div class="boxevaluate__head  boxevaluate__head--darkblue"></div>
+                            <div class="containerbox">
+                                <p class="boxevaluate__text">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                                <div class="boxevaluate__user">
+                                    <div class="user__icon"><img src="asset/img/bong-tai-bac.png" alt=""></div>
+                                    <div class="user__name_time">
+                                        <div class="user__name">Lorem Ipsum</div>
+                                        <div class="user__time">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4">
+                        <p class="footer__ministore">SEREIN.</p>
+                        <p class="text">Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa
+                            volutpat aenean odio erat nullam fringilla.</p>
+                    </div>
+                    <div class="col l-2">
+                        <P class="footer__box">QUICK LINKS</P>
+                        <ul class="list-item">
+                            <li>Home</li>
+                            <li>ABOUT</li>
+                            <li>SHOP</li>
+                            <li>BLOGS</li>
+                            <li>CONTACT</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <p class="footer__box">Help & info</p>
+                        <ul class="list-item">
+                            <li>Track Your Order </li>
+                            <li>Returns policies</li>
+                            <li>Shipping + Delivery </li>
+                            <li>Contact Us </li>
+                            <li>Faqs</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <p class="footer__box">Help & info</p>
+                        <ul class="list-item ">
+                            <li class="contact-opacity">Do you have any queries or suggestions? </li>
+                            <li><strong style="text-decoration: underline;">yourinfo@gmail.com</strong></li>
+                            <li class="contact-opacity">If you need support? Just give us a call.</li>
+                            <li><strong style="text-decoration: underline;">+55 111 222 333 44</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="notifity">
+            <div class="notifity-icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="notifity-messge">
+                <div class="notifity-messge-title">Toast Title </div>
+                <div class="notifity-messge-description">Write your message here </div>
+            </div>
+            <button class="action">Action</button>
+            <div class="notifity-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<script src="javascript.js">
+    function oclick() {
+        var oclock = new Date();
+        document.querySelector(".coutdown-olock .dayjs").innerHTML = oclock.getDay();
+        document.querySelector(".coutdown-olock .hourjs").innerHTML =
+            oclock.getHours();
+        document.querySelector(".coutdown-olock .miniusjs").innerHTML =
+            oclock.getMinutes();
+        document.querySelector(".coutdown-olock .secondjs").innerHTML =
+            oclock.getSeconds();
+    }
+    setInterval(oclick, 1000);
+</script>
